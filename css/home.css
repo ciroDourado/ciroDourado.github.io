@@ -5,8 +5,6 @@
 
 
 body {
-    background-color: #d0d0d0;
-    background-color: #c4c4c4;
     height: auto;
     width : 100%;
 } /* body */
@@ -23,8 +21,6 @@ section#painelDoHeader {
     width : inherit;
 
     margin: 2%;
-    background-color: #c4c4c4;
-    background-color: #cbcbcb;
 } /* section#painelDoHeader */
 
 
@@ -36,14 +32,12 @@ span {
 main {
     height: 200vh;
     width : 100%;
-    background-color: transparent;
 }
 
 
 footer {
     height: 50vh;
     width : 100%;
-    background-color: #b8b8b8;
 }
 
 
@@ -67,8 +61,8 @@ footer {
 
     font-size  : 70%;
     font-weight: normal;
-    color      : #848484;
 } /* SubtituloHeader */
+
 
 @keyframes subtituloFadein {
     from { opacity:  0; }
@@ -92,11 +86,6 @@ footer {
     align-items  : stretch;
     justify-content: center;
 } /* Esticado */
-
-
-.Sombreado {
-    box-shadow: 0 0 24px #888888;
-} /* Sombreado */
 
 
 .Arredondado {
