@@ -3,8 +3,8 @@ const tema = document.querySelector("link#temaGlobal");
 
 function estaNoIntervaloDaNoite() {
     let atual = (new Date()).getHours();
-    let noite     =  atual >= 17.5;
-    let madrugada = (atual >=    0 && atual <=  5.5);
+    let noite     =  atual >=  17;
+    let madrugada = (atual >=   0 && atual <= 5.5);
     return noite || madrugada;
 }
 
