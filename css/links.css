@@ -1,0 +1,23 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    transition-duration: .1s;
+}
+
+/* unvisited link */
+a:link {
+}
+
+/* visited link */
+a:visited {
+}
+
+/* mouse over link */
+a:hover {
+    font-weight: normal;
+}
+
+/* selected link */
+a:active {
+    opacity: .6;
+}
