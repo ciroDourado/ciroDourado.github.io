@@ -1,0 +1,17 @@
+/* compatível com o Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #444444 transparent;
+}
+
+/* compatível com demais navegadores */
+*::-webkit-scrollbar {
+    width: 4px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 20px;
+}
