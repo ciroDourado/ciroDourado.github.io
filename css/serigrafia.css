@@ -5,8 +5,8 @@
     letter-spacing: 1.5px;
 } /* Serigrafia */
 
-@media (max-width: 450) {
+@media (max-width: 450px) {
     .Serigrafia {
-        font-size  : 32px;
+        font-size  : 200px;
     }
 }
