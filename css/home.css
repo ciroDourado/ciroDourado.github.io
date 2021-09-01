@@ -1,0 +1,164 @@
+* {
+    margin : 0px;
+    padding: 0px;
+} /* all */
+
+
+body {
+    background-color: #d0d0d0;
+    background-color: #c4c4c4;
+    height: 200vh;
+    width : 100%;
+} /* body */
+
+
+header {
+    height: 100vh;
+    width : 100%;
+} /* header */
+
+
+button {
+    transition-duration: 1s;
+    padding: 12px;
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+
+button:hover {
+    border: .5px solid #bbbbbb;
+    background-color: #cccccc;
+}
+
+
+section#painelDoHeader {
+    height: auto;
+    width : inherit;
+
+    margin: 2%;
+    background-color: #c4c4c4;
+    background-color: #cbcbcb;
+} /* section#painelDoHeader */
+
+
+span {
+    margin: .6%;
+} /* span */
+
+
+nav {
+    transition-duration: 0.4s;
+    width : inherit;
+}
+
+.NavEncolhida {
+    height: 60px;
+    margin-top: 0px;
+}
+
+.NavExpandida {
+    height: 80px;
+    margin-top: 2%;
+}
+
+section#textoDaNav {
+    width: 80%;
+    height: inherit;
+}
+
+.TextoNavEncolhida {
+    background-color: #cbcbcb;
+    border: 1px solid #444444;
+}
+
+.TextoNavExpandida {
+    background-color: transparent;
+    border-bottom: 1px solid #444444;
+}
+
+
+.Flutuante {
+    position: fixed;
+}
+
+
+.TituloHeader {
+    animation: tituloFadein 4s;
+} /* TituloHeader */
+
+@keyframes tituloFadein {
+    from { opacity: .1; }
+    to   { opacity:  1; }
+} /* tituloFadein */
+
+
+.SubtituloHeader {
+    animation: subtituloFadein 8s;
+
+    font-size  : 70%;
+    font-weight: normal;
+    color      : #848484;
+} /* SubtituloHeader */
+
+@keyframes subtituloFadein {
+    from { opacity:  0; }
+    to   { opacity:  1; }
+} /* subtituloFadein */
+
+
+.Centralizado {
+    display: flex;
+
+    align-content: center;
+    align-items  : center;
+    justify-content: center;
+} /* Centralizado */
+
+
+.Esticado {
+    display: flex;
+
+    align-content: stretch;
+    align-items  : stretch;
+    justify-content: center;
+} /* Esticado */
+
+
+.Serigrafia {
+    color      : #7a7a7a;
+    font-size  : 120%;
+    font-weight: bold;
+    font-family: 'Roboto Mono';
+    letter-spacing: 1.5px;
+} /* Serigrafia */
+
+
+.Sombreado {
+    box-shadow: 0 0 24px #888888;
+} /* Sombreado */
+
+
+.Arredondado {
+    border-radius: 12px;
+} /* Arredondado */
+
+
+.EmColuna {
+    display: flex;
+
+    flex-direction: column;
+} /* EmColuna */
+
+
+.ItensAfastados {
+    display: flex;
+
+    justify-content: space-around;
+} /* ItensAfastados */
+
+
+.QuebraElementos {
+    display: flex;
+
+    flex-flow: row wrap;
+} /* QuebraElementos */
