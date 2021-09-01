@@ -1,0 +1,61 @@
+body {
+    background-color: #3b3b3b;
+    color           : #858585;
+} /* body */
+
+
+section#painelDoHeader {
+    background-color: #343434;
+} /* section#painelDoHeader */
+
+
+main {
+    background-color: transparent;
+}
+
+
+footer {
+    background-color: #474747;
+}
+
+
+.SubtituloHeader {
+    color      : #7b7b7b;
+} /* SubtituloHeader */
+
+
+.Sombreado {
+    box-shadow: 0 0 24px #666;
+} /* Sombreado */
+
+
+.TextoNavEncolhida {
+    background-color: #343434;
+    border: 1px solid #bbbbbb;
+}
+
+
+.TextoNavExpandida {
+    background-color: transparent;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+
+button {
+    color            : #858585;
+    background-color : transparent;
+}
+
+
+/* compatível com o Firefox */
+* {
+    scrollbar-color: #bbbbbb transparent;
+}
+
+/* compatível com demais navegadores */
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #bbbbbb;
+}
