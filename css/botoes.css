@@ -1,0 +1,13 @@
+button {
+    font-family: 'Roboto Mono';
+    color      : #7a7a7a;
+    font-weight: normal;
+
+    transition-duration: .2s;
+    border: none;
+    background-color: transparent;
+}
+
+button:hover {
+    font-weight: bolder;
+}

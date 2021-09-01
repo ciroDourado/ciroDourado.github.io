@@ -1,0 +1,29 @@
+nav {
+    transition-duration: 0.4s;
+    width : inherit;
+}
+
+.NavEncolhida {
+    height: 60px;
+    margin-top: 0px;
+}
+
+.NavExpandida {
+    height: 80px;
+    margin-top: 2%;
+}
+
+section#textoDaNav {
+    width: 80%;
+    height: inherit;
+}
+
+.TextoNavEncolhida {
+    background-color: #cbcbcb;
+    border: 1px solid #444444;
+}
+
+.TextoNavExpandida {
+    background-color: transparent;
+    border-bottom: 1px solid #444444;
+}
