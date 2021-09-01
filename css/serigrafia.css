@@ -4,9 +4,3 @@
     font-family: 'Roboto Mono';
     letter-spacing: 1.5px;
 } /* Serigrafia */
-
-@media screen and (max-width: 200px) {
-    .Serigrafia {
-        font-size  : 200%;
-    }
-}
