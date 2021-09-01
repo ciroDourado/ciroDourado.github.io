@@ -7,7 +7,7 @@
 body {
     background-color: #d0d0d0;
     background-color: #c4c4c4;
-    height: 200vh;
+    height: auto;
     width : 100%;
 } /* body */
 
@@ -31,6 +31,20 @@ section#painelDoHeader {
 span {
     margin: .6%;
 } /* span */
+
+
+main {
+    height: 200vh;
+    width : 100%;
+    background-color: transparent;
+}
+
+
+footer {
+    height: 50vh;
+    width : 100%;
+    background-color: #a8a8a8;
+}
 
 
 .Flutuante {
