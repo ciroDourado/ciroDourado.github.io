@@ -4,3 +4,9 @@
     font-family: 'Roboto Mono';
     letter-spacing: 1.5px;
 } /* Serigrafia */
+
+@media Handheld {
+    .Serigrafia {
+        font-size  : 200%;
+    }
+}
