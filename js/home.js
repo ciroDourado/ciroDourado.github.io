@@ -1,3 +1,5 @@
+console.log('ola criatura curiosa kk :3')
+
 let nav     = document.getElementsByTagName('nav')[0]
 let navText = document.getElementById('textoDaNav')
 
