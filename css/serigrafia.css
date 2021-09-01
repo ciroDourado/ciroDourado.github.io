@@ -5,7 +5,7 @@
     letter-spacing: 1.5px;
 } /* Serigrafia */
 
-@media Handheld {
+@media (max-width: 450) {
     .Serigrafia {
         font-size  : 32px;
     }
