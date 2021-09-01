@@ -4,8 +4,9 @@ button {
     font-weight: normal;
 
     transition-duration: .2s;
-    border: none;
-    background-color: transparent;
+    background-color   : transparent;
+    padding: 15px;
+    border : none;
 }
 
 button:hover {
