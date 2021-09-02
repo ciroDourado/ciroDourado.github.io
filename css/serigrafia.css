@@ -1,6 +1,6 @@
 .Serigrafia {
     font-size  : 120%;
     font-weight: bold;
-    font-family: 'Roboto Mono';
+    font-family: localRoboto, 'Roboto Mono';
     letter-spacing: 1.5px;
 } /* Serigrafia */
