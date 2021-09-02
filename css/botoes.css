@@ -1,5 +1,5 @@
 button {
-    font-family: 'Roboto Mono';
+    font-family: localRoboto, 'Roboto Mono';
     font-weight: normal;
 
     transition-duration: .2s;
