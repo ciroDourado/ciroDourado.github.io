@@ -1,16 +1,16 @@
 html {
-    background-color: #3b3b3b;
+    background-color: #1F2223;
 }
 
 
 body {
-    background-color: #3b3b3b;
-    color           : #858585;
+    background-color: inherit;
+    color           : #E1E1DB;
 } /* body */
 
 
 section#painelDoHeader {
-    background-color: #343434;
+    background-color: #181A1B;
 } /* section#painelDoHeader */
 
 
@@ -20,41 +20,45 @@ main {
 
 
 footer {
-    background-color: #474747;
+    background-color: #292C2F;
 }
 
 
 .SubtituloHeader {
-    color      : #7b7b7b;
+    /* mesmo valor de color, 50% visivel */
+    color: rgba(225, 225, 219, 0.5);
 } /* SubtituloHeader */
 
 
 .Sombreado {
-    box-shadow: 0 0 24px #666;
+    /* para o dark theme, a mesma cor da
+       fonte, dando impressao de que está
+       iluminando por tras do painel  */
+    box-shadow: 0 0 24px #E1E1DB;
 } /* Sombreado */
 
 
 .TextoNavEncolhida {
-    background-color: #343434;
-    border: 1px solid #bbbbbb;
+    background-color: #181A1B;
+    border: 1px solid #E1E1DB;
 }
 
 
 .TextoNavExpandida {
     background-color: transparent;
-    border-bottom: 1px solid #bbbbbb;
+    border-bottom: 1px solid #E1E1DB;
 }
 
 
 button {
-    color            : #858585;
+    color: rgba(225, 225, 219, 0.5);
     background-color : transparent;
 }
 
 
 /* compatível com o Firefox */
 * {
-    scrollbar-color: #bbbbbb transparent;
+    scrollbar-color: #E1E1DB transparent;
 }
 
 /* compatível com demais navegadores */
@@ -62,5 +66,5 @@ button {
     background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: #bbbbbb;
+    background-color: #E1E1DB;
 }
