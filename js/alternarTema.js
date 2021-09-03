@@ -14,7 +14,7 @@ function verificarHoras() {
         default  : trocarParaTemaClaro();
     }
 } // verificarHoras
-// verificarHoras();
+verificarHoras();
 
 
 let aCadaMeioMinuto = 30000;
