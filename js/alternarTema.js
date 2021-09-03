@@ -14,10 +14,11 @@ function verificarHoras() {
         default  : trocarParaTemaClaro();
     }
 } // verificarHoras
-verificarHoras();
+// verificarHoras();
 
-let aCadaMinuto = 60000;
-setInterval(verificarHoras, aCadaMinuto);
+
+let aCadaMeioMinuto = 30000;
+setInterval(verificarHoras, aCadaMeioMinuto);
 
 
 function trocarParaTemaEscuro() {
