@@ -16,8 +16,8 @@ function verificarHoras() {
 } // verificarHoras
 verificarHoras();
 
-let aCadaHora = 3600000;
-setInterval(verificarHoras, aCadaHora);
+let aCadaMinuto = 60000;
+setInterval(verificarHoras, aCadaMinuto);
 
 
 function trocarParaTemaEscuro() {
