@@ -1,7 +1,5 @@
 .Grid {
     display        : grid;
-    justify-content: center;
-    align-items    : center;
 }
 
 main.Grid {
