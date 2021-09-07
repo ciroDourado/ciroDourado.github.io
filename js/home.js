@@ -27,6 +27,10 @@ console.log(
 	'(com o assunto "Desafio / Easter Egg"): \n' +
 	'ciro dot brz at gmail dot com'
 )
+console.log(
+	'P.S.: experimente mudar de tema, apenas insira as funções ' +
+	'dark() ou light() no console :3'
+)
 
 let nav     = document.getElementsByTagName('nav')[0]
 let navText = document.getElementById('textoDaNav')

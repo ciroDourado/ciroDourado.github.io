@@ -32,3 +32,13 @@ function trocarParaTemaClaro() {
         tema.href = "css/temaClaro.css";
     }
 } // trocarParaTemaClaro
+
+function light() {
+    aCadaMeioMinuto = 86400000;
+    trocarParaTemaClaro();
+} // light
+
+function dark() {
+    aCadaMeioMinuto = 86400000;
+    trocarParaTemaEscuro();
+} // dark
