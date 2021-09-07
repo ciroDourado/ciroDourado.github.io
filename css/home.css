@@ -4,6 +4,11 @@
 } /* all */
 
 
+html {
+    min-width: 500px;
+}
+
+
 body {
     height: auto;
     width : 100%;
@@ -32,6 +37,21 @@ span {
 main {
     height: 200vh;
     width : 100%;
+}
+
+section#imagem {
+    width: 100%;
+    grid-column: 2 / span 1;
+}
+
+img {
+    margin-top   : 10px;
+    margin-bottom: 10px;
+    width: inherit;
+}
+
+.Borrado {
+    filter: blur(1.5px);
 }
 
 

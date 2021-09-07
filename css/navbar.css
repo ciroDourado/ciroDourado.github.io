@@ -1,6 +1,7 @@
 nav {
     transition-duration: 0.4s;
-    width : inherit;
+    width  : inherit;
+    z-index: 1; 
 }
 
 .NavEncolhida {
@@ -16,7 +17,7 @@ nav {
 section#textoDaNav {
     overflow-x: auto;
     overflow-y: hidden;
-    
+
     width: 80%;
     height: inherit;
 }
