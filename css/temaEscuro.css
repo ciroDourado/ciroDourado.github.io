@@ -1,16 +1,16 @@
 html {
-    background-color: #1F2223;
+    background-color: #090519;
 }
 
 
 body {
     background-color: inherit;
-    color           : #E1E1DB;
+    color           : #e3dbcc;
 } /* body */
 
 
 section#painelDoHeader {
-    background-color: #181A1B;
+    background-color: #08051A;
 } /* section#painelDoHeader */
 
 
@@ -20,7 +20,7 @@ main {
 
 
 footer {
-    background-color: #292C2F;
+    background-color: #0C0822;
 }
 
 
@@ -34,19 +34,19 @@ footer {
     /* para o dark theme, a mesma cor da
        fonte, dando impressao de que está
        iluminando por tras do painel  */
-    box-shadow: 0 0 24px #E1E1DB;
+    box-shadow: 0 0 18px #e3dbcc;
 } /* Sombreado */
 
 
 .TextoNavEncolhida {
-    background-color: #181A1B;
-    border: 1px solid #E1E1DB;
+    background-color: #08051A;
+    border: 1px solid #e3dbcc;
 }
 
 
 .TextoNavExpandida {
     background-color: transparent;
-    border-bottom: 1px solid #E1E1DB;
+    border-bottom: 1px solid #e3dbcc;
 }
 
 
@@ -58,7 +58,7 @@ button {
 
 /* compatível com o Firefox */
 * {
-    scrollbar-color: #E1E1DB transparent;
+    scrollbar-color: #e3dbcc transparent;
 }
 
 /* compatível com demais navegadores */
@@ -66,5 +66,5 @@ button {
     background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: #E1E1DB;
+    background-color: #e3dbcc;
 }
