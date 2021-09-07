@@ -1,0 +1,25 @@
+.Grid {
+    display        : grid;
+    justify-content: center;
+    align-items    : center;
+}
+
+main.Grid {
+    grid-template-columns: auto 80% auto;
+    grid-template-rows   : auto;
+}
+
+@media only screen and (min-width: 800px) {
+    main.Grid {
+        grid-template-columns: auto 60% auto;
+        grid-template-rows   : auto;
+    }
+} /* media query, maior que 800px */
+
+
+@media only screen and (min-width: 1200px) {
+    main.Grid {
+        grid-template-columns: auto 50% auto;
+        grid-template-rows   : auto;
+    }
+} /* media query, maior que 1200px */
