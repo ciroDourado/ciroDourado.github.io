@@ -1,16 +1,16 @@
 html {
-    background-color: #c4c4c4;
+    background-color: #ddd3c2;
 }
 
 
 body {
-    background-color: #c4c4c4;
-    color           : #7a7a7a;
+    background-color: #ddd3c2;
+    color           : #6a6a6a;
 } /* body */
 
 
 section#painelDoHeader {
-    background-color: #cbcbcb;
+    background-color: #e3dbcc;
 } /* section#painelDoHeader */
 
 
@@ -20,12 +20,12 @@ main {
 
 
 footer {
-    background-color: #b8b8b8;
+    background-color: #d8ccb7;
 }
 
 
 .SubtituloHeader {
-    color      : #848484;
+    color      : #8a8a8a;
 } /* SubtituloHeader */
 
 
@@ -35,7 +35,7 @@ footer {
 
 
 .TextoNavEncolhida {
-    background-color: #cbcbcb;
+    background-color: #e3dbcc;
     border: 1px solid #444444;
 }
 
@@ -47,7 +47,7 @@ footer {
 
 
 button {
-    color            : #7a7a7a;
+    color            : #6a6a6a;
     background-color : transparent;
 }
 
